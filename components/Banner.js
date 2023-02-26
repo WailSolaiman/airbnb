@@ -8,6 +8,8 @@ export const Banner = () => {
 				src='/heroimage.webp'
 				alt='Airbnb Heroimage'
 				fill
+				priority
+				sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
 				style={{ objectFit: 'cover', objectPosition: 'center' }}
 			/>
 			<div className='absolute top-1/2 w-full text-center'>

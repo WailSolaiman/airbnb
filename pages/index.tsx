@@ -5,6 +5,7 @@ import { Header } from '../components/Header'
 import { Banner } from '../components/Banner'
 import { SmallCard } from '../components/SmallCard'
 import { MediumCard } from '../components/MediumCard'
+import { LargeCard } from '../components/LargeCard'
 
 type ExploreDataType = {
 	img: string
@@ -58,6 +59,14 @@ export default function Home(props: {
 							/>
 						))}
 					</div>
+				</section>
+				<section>
+					<LargeCard
+						img='/largeImg.webp'
+						title='The Greatest Outdoor'
+						description='Wishlists curated by Airbnb'
+						buttonText='Get Inspired'
+					/>
 				</section>
 			</main>
 		</div>

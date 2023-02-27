@@ -6,6 +6,7 @@ import { Banner } from '../components/Banner'
 import { SmallCard } from '../components/SmallCard'
 import { MediumCard } from '../components/MediumCard'
 import { LargeCard } from '../components/LargeCard'
+import { Footer } from '../components/Footer'
 
 type ExploreDataType = {
 	img: string
@@ -69,6 +70,7 @@ export default function Home(props: {
 					/>
 				</section>
 			</main>
+			<Footer />
 		</div>
 	)
 }
